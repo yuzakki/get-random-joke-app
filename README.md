@@ -14,7 +14,7 @@ This Random Joke Generator App is a web application that fetches jokes from an A
 
 ## Live Demo
 
-Check out the live demo of the Random Joke Generator: [Demo](https://jokeshack.netlify.app/)
+### Check out the live demo of the Random Joke Generator: [Demo](https://jokeshack.netlify.app/)
 
 ## Installation
 
