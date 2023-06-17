@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+body {
+  background: rgb(63, 94, 251);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.box {
+  width: 550px;
+  height: 450px;
+  padding: 70px 50px 70px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 7px 32px 0px rgb(0 0 0 / 20%);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#joke {
+  font-size: 18pt;
+  text-align: center;
+  color: white;
+  line-height: 1.3;
+  font-family: revert;
+  letter-spacing: 1.3px;
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: #00bfa6;
+  padding: 14px 40px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px dashed #00bfa6;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-out;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 12pt;
+  font-weight: bold;
+  /* margin-bottom: 30px; */
+}
+.btn:hover {
+  transition: 0.2s ease-out;
+  border: 2px dashed #00bfa6;
+  background-color: #fff;
+  color: #00bfa6;
+}
+.btn:active {
+  background-color: #87dbd0;
+}
+
+span {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+}
+a {
+  color: #f1c40f;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 1px;
+}
