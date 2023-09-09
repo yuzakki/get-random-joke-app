@@ -2,9 +2,9 @@
 
 A simple website that generates random jokes to brighten your day. Get a chuckle with just a click!
 
-## Description
+## Quick description
 
-This Random Joke Generator App is a web application that fetches jokes from an API and displays them in a user-friendly format. It provides a quick and easy way to have a laugh and share funny jokes with friends, he application utilizes JavaScript to make API requests and dynamically update the content on the page.
+This Random Joke Generator App is a web application that fetches jokes from an API and displays them in a user-friendly format. It provides a quick and easy way to have a laugh and share funny jokes with friends, the application utilizes JavaScript to make API requests and dynamically update the content on the page.
 
 ## Features
 
@@ -32,6 +32,4 @@ This Random Joke Generator App is a web application that fetches jokes from an A
 
 - This project utilizes the [JokeAPI](https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single) to fetch random jokes.
 
-## Contributing
-
-Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
+That's it! 🙌.
